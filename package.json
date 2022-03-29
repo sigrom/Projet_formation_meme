@@ -1,10 +1,11 @@
 {
-  "name": "Projet_formation_meme",
+  "name": "projet_formation_meme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server",
+    "json": "json-server -p 5679 db/db.json"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,6 @@
   },
   "homepage": "https://github.com/sigrom/Projet_formation_meme#readme",
   "dependencies": {
-    "json-server": "^0.17.0",
     "lite-server": "^2.6.1"
   }
 }
