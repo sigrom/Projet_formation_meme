@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sigrom/Projet_formation_meme/issues"
   },
-  "homepage": "https://github.com/sigrom/Projet_formation_meme#readme"
+  "homepage": "https://github.com/sigrom/Projet_formation_meme#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
