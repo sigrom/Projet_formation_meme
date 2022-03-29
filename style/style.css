@@ -1,10 +1,9 @@
-header{
-    color:blueviolet;
-font-size: 32pt;
-font-weight: 600;
-text-decoration: underline crimson;
-text-shadow: 30px 30px 25px gray;
-font-style: italic;
-height: calc(32pt+25px);
-border: 1px solid red;
+header {
+    color: blueviolet;
+    font-size: 32pt;
+    font-weight: 600;
+    text-decoration: underline crimson;
+    text-shadow: 30px 30px 25px gray;
+    font-style: italic;
+    height: calc(32pt+25px);
 }

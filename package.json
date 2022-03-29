@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/sigrom/Projet_formation_meme#readme",
   "dependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "json-server": "0.17.0",
+    "bootstrap": "3.4.1",
+    "jquery": "3.6.0"
   }
 }
