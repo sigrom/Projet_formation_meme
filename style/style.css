@@ -5,9 +5,8 @@
     text-decoration: underline crimson;
     text-shadow: 30px 30px 25px gray;
     font-style: italic;
-    height: calc(32pt + 25px);
 }
 
-.navbar-nav, .navbar-nav, .navbar-nav li, .navbar-nav a {
+.navbar-nav, .navbar-nav ul, .navbar-nav li, .navbar-nav a, .navbar-brand {
     height: calc(32pt + 25px);
 }
