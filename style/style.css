@@ -11,7 +11,7 @@
     height: calc(32pt + 25px);
 }
 
-#main_creator> {
+#main_creator div {
     text-align: text-align:center;
-    border: 1px solid black
+    border: 1px solid #000
 }
