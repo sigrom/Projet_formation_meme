@@ -10,3 +10,8 @@
 .navbar-nav, .navbar-nav ul, .navbar-nav li, .navbar-nav a, .navbar-brand {
     height: calc(32pt + 25px);
 }
+
+#main_creator> {
+    text-align: text-align:center;
+    border: 1px solid black
+}
