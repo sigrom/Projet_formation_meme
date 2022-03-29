@@ -16,4 +16,4 @@
     border: 1px solid #000
 }
 #main_creator{display: flex;}
-#main_viewer{flex-grow;1}
+#main_viewer{flex-grow:1}
