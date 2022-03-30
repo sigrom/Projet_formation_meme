@@ -20,4 +20,20 @@ function SetMemeOnSVG(meme){
       var svgtextNode = document.querySelector('svg text');
       //modif du contenu html
       svgtextNode.innerHTML= meme.texte;
+       //modif X
+      var attrib= svgtextNode.attributes['x'];
+      attrib.value=meme.x;
+       //modif  Y ss décomposition
+       svgtextNode.attributes['y'].value=meme.y;
+
+        //modif font-weight font-size
+       svgtextNode.attributes['font-size'].value=meme.fontSize;
+       svgtextNode.style['font-weight'].value=meme.fontWeight;
+       //modif fill
+       svgtextNode.attributes['fill'].value=meme.color;
+        //remplissage conditionnel avec test ternaire if else
+        svgtextNode.style.fontStyle=(meme.italic ? 'italic' : 'normale)');
+        svgtextNode.style.texDecoration=(meme.underline ? 'underline' : 'none)');
+
+
   }      
