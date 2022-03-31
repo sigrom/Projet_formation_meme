@@ -1,0 +1,33 @@
+{
+    "image": [
+        {
+            "id": 1,
+            "href": "Futurama-6.jpg",
+            "w": 800,
+            "h": 450,
+            "name": "Faturama6"
+        },
+        {
+            "id": 2,
+            "href": "Futurama-2.jpg",
+            "w": 300,
+            "h": 550,
+            "name": "Faturama2"
+        }
+    ],
+    "memes": [
+        {
+            "id":0,
+            "name": "Dummy Demo Name",
+            "texte": "Hello",
+            "x": 50,
+            "y": 200,
+            "fontSize": 50,
+            "fontWeight": "100",
+            "underline": true,
+            "italic": true,
+            "color": "#b7b998",
+            "imageId": 1
+        }
+    ]
+}
