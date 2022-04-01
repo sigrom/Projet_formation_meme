@@ -1,149 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <!-- Latest compiled and minified CSS & JS -->
-        <link rel="stylesheet" media="screen"
-            href="/node_modules/bootstrap/dist/css/bootstrap.css">
-        <script src="/node_modules/jquery/dist/jquery.js"></script>
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-        <link rel="stylesheet" href="/style/style.css">
-        <script src="/js/crud.js"></script>
-        <script src="/js/mainES5.js"></script>
-        <script src="/js/index.js"></script>
-    </head>
-    <body>
-        <div id="test" class='avant'>JS pas Chargé </div>
-        <header>
-            <div id='navbar'>
-                <div class="navbar navbar-inverse">
-                    <a class="navbar-brand" href="#">
-                        Meme <span style='font-style: italic;color:rgba(215,
-                            220, 223, 0.849)'>Generator</span><span
-                            style='color:tomato'>Js<span>
-                            </a>
-                            <ul class="nav navbar-nav">
-                                <li class="active">
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">Link</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </header>
-            </div>
-            <div id='wrapper'>
-                <div id='main_creator'>
-                    <div id='main_viewer'>
-                        <svg xmlns='http://www.w3.org/2000/svg'
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            viewbox="0 0 1200 1600">
-                            <image xlink:href="/img/Futurama-6.jpg" x="0" y="0"
-                                />
-                                <text x="100" y="50" font-size="45" fill="white"
-                                    stoke="blue"> HELLO</text>
-                            </svg>
-                        </div>
-                        <div id='main_editor'>
-                            <h1>Editor</h1>
-                            <hr/>
-                                <form name='meme-form' id='meme-form'>
-                                    <label for='meme-name'>Nom
-                                    </label><br>
-                                    <input type='text' Name='meme-name'
-                                        id='meme-name' placeholder="Saisir" />
-                                    <hr/>
-                                        <label for="meme-image">Image:</label><br>
-                                        <select name='meme-image'
-                                            id='meme-image'>
-                                            <option value='Futurama-6.jpg'>Futurama-1
-                                            </option>
-                                            <option value='Futurama-6.jpg'>Futurama-2
-                                            </option>
-                                        </select><br><br>
-                                        <label for='meme-text'>Text:
-                                        </label><br>
-                                        <input type='text' Name='meme-text'
-                                            id='meme-text' placeholder="Saisir"
-                                            />
 
-                                        <br><br>
-                                        <div class='colS'>
-                                            <div class='col'>
-                                                <label for='meme-X'>X:
-                                                </label><br>
-                                                <input type='Number'
-                                                    Name='meme-X' id='meme-X'
-                                                    min='0'/>
-                                            </div>
-                                            <div class='col'>
-                                                <label for='meme-Y'>Y:
-                                                </label><br>
-                                                <input type='Number'
-                                                    Name='meme-Y' id='meme-Y'
-                                                    min='0'/>
-                                            </div>
-                                        </div>
-                                        <br> <br>
-                                        <div class='colS'>
-                                            <div class='col'>
-                                                <label for='meme-size'>font-size:
-                                                </label><br>
-                                                <input type='Number'
-                                                    Name='meme-size'
-                                                    id='meme-size' min='0'/>
-                                            </div>
-                                            <div class='col'>
-                                                <label for='meme-weight'>font-weight:
-                                                </label><br>
-                                                <input type='Number'
-                                                    Name='meme-weight'
-                                                    id='meme-weight'/>
-                                            </div>
-                                        </div>
-                                        <br><br>
-                                        <div class='colS'>
-                                            <div class='col'>
-                                                <label for='meme-under'>underline:
-                                                </label><br>
-                                                <input type='checkbox'
-                                                    Name='meme-under'
-                                                    id='meme-under'/>
-                                            </div>
-                                            <div class='col'>
-                                                <label for='meme-ita'>italique:
-                                                </label><br>
-                                                <input type='checkbox'
-                                                    Name='meme-ita'
-                                                    id='meme-ita'/>
-                                            </div>
-                                        </div>
-                                        <label for='meme-color'>color:
-                                        </label><br>
-                                        <input type='color' Name='meme-color'
-                                            id='meme-color'/>
-                                        <br> <br>
-                                        <button type="reset" class='btn
-                                            btn-primary'> ANNULER</button>
-                                        <br> <br>
-                                        <button type="submit" class='btn
-                                            btn-success'> Soumettre</button>
-                                    </div>
-                                    <br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/js/config/config.js"></script>
+    <script src="/js/crud.js"></script>
+    <script src="/js/mainES5.js"></script>
+    <script src="/js/Thumb.js"></script>
+    <script src="/js/main-creator.js"></script>
+    <script src="/js/index.js"></script>
 
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <footer>footer</footer>
-     <style>
-        header{color: gray;}
+    <style>
+        header {
+            color: gray;
+        }
     </style>
+</head>
 
+<body>
+    <div id="test" class='avant'>JS pas Chargé </div>
+    <header>
+        <div id='navbar'>
+            <div class="navbar navbar-inverse">
+                <a class="navbar-brand" href="#">
+                    Meme <span style='font-style: italic;color:rgba(215,
+                            220, 223, 0.849)'>Generator</span><span style='color:tomato'>Js<span>
+                </a>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/thumbnail">Thumbnail</a>
+                    </li>
+                    <li>
+                        <a href="/editor/memes">Nouveau</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id='wrapper'></div>
+    <footer>footer</footer>
+</body>
 
-                </body>
-            </html>
+</html>

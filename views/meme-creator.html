@@ -1,0 +1,74 @@
+<div id='main_creator'>
+    <div id='main_viewer'>
+
+    </div>
+    <div id='main_editor'>
+        <h1>Editor</h1>
+        <hr />
+        <form name='meme-form' id='meme-form'>
+            <label for='meme-name'>Nom</label><br>
+            <input type='text' name='meme-name' id='meme-name'
+                placeholder="Saisir" />
+            <hr />
+            <label for="meme-image">Image:</label><br>
+            <select name='meme-image' id='meme-image'>
+                <option value=''>No img</option>
+            </select><br><br>
+            <label for='meme-text'>Text:
+            </label><br>
+            <input type='text' name='meme-text' id='meme-text'
+                placeholder="Saisir" />
+
+            <br><br>
+            <div class='colS'>
+                <div class='col'>
+                    <label for='meme-x'>X:
+                    </label><br>
+                    <input type='Number' name='meme-X' id='meme-x' min='0' />
+                </div>
+                <div class='col'>
+                    <label for='meme-y'>Y:
+                    </label><br>
+                    <input type='Number' name='meme-Y' id='meme-y' min='0' />
+                </div>
+            </div>
+            <br> <br>
+            <div class='colS'>
+                <div class='col'>
+                    <label for='meme-fontSize'>font-size:
+                    </label><br>
+                    <input type='Number' name='meme-fontSize' id='meme-size' min='0'
+                        />
+                </div>
+                <div class='col'>
+                    <label for='meme-fontWeight'>font-weight:
+                    </label><br>
+                    <input type='Number' name='meme-fontWeight' id='meme-weight' />
+                </div>
+            </div>
+            <br><br>
+            <div class='colS'>
+                <div class='col'>
+                    <label for='meme-underline'>underline:
+                    </label><br>
+                    <input type='checkbox' name='meme-underline' id='meme-under' />
+                </div>
+                <div class='col'>
+                    <label for='meme-italic'>italique:
+                    </label><br>
+                    <input type='checkbox' name='meme-italic' id='meme-ita' />
+                </div>
+            </div>
+            <label for='meme-color'>color:
+            </label><br>
+            <input type='color' name='meme-color' id='meme-color' />
+            <br> <br>
+            <button type="reset" class='btn
+                btn-primary'> ANNULER</button>
+            <br> <br>
+            <button type="submit" class='btn
+                btn-success'> Soumettre</button>
+            <br>
+        </form>
+    </div>
+</div>
